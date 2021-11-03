@@ -5,7 +5,7 @@ from tkinter.font import NORMAL
 from tkinter import ttk
 from tkinter import filedialog as fd
 import xml.etree.ElementTree as ET
-import matplotlib, numpy, sys
+import matplotlib, numpy
 matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
